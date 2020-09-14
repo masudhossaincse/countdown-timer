@@ -4,6 +4,39 @@
 }
 
 body {
+    background-image: url("imgs/snow.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
     font-family: "Poppins", sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.big-text {
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+    text-align: center;
 }
