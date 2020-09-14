@@ -30,6 +30,8 @@ h1 {
 
 .countdown-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 countdown-el {
@@ -39,5 +41,5 @@ countdown-el {
 .countdown-el span {
     font-size: 1.5rem;
     text-align: center;
-    margin: 0 2rem;
+    margin: 1rem 2rem;
 }
