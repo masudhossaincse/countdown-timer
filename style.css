@@ -24,7 +24,7 @@ h1 {
 .big-text {
     font-size: 4rem;
     line-height: 1;
-    margin: 0 2rem;
+    margin: 1rem 1rem;
     font-weight: bold;
 }
 
@@ -39,4 +39,5 @@ countdown-el {
 .countdown-el span {
     font-size: 1.5rem;
     text-align: center;
+    margin: 0 2rem;
 }
